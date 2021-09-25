@@ -1,0 +1,12 @@
+from math import log10
+#store the value
+a=int(input("enter the 1st number:")) 
+b=int(input("enter the 2nd number:")) 
+#find all the arthemetic value
+print(a, "+" ,b, "is", a+b) 
+print(a, "-" ,b, "is", a-b) 
+print(a, "*" ,b, "is", a*b) 
+print(a, "/" ,b, "is", a/b)
+print(a, "*" ,b, "is", a*b) 
+print("the base 10 logrithm of",a,"is", log10(a))
+print(a, "^" ,b, "is", a**b)
