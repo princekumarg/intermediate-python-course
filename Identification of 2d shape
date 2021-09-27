@@ -1,0 +1,13 @@
+n=int(input("enter the number of sides:")) 
+if n<=2 :
+   print(n,"it not a surface") 
+if n==3 :
+   print(n,"triangle") 
+if n==4 :
+   print(n,"qudailateral") 
+if n==5 :
+   print(n,"pentagon")
+if n==6 :
+   print(n,"hexagon") 
+if n>=7 :
+   print(n,"Polygon")
