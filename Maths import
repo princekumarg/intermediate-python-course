@@ -1,0 +1,5 @@
+ath import log10
+a=int(input("enter the 1st number")) 
+b=int(input("enter the 2nd number")) 
+form=log10(a*b)
+print("the value following is %f" %form)
