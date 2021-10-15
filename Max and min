@@ -1,0 +1,10 @@
+a=int(input("enter the 1st value")) 
+b=int(input("enter the 2nd value")) 
+c=int(input("enter the 3rd value"))
+p=max(a,b,c) 
+q=min(a,b,c)
+r=a+b+c-p-q
+print("the value of sorted element is:") 
+print(" ",p) 
+print(" ",q) 
+print(" ",r)
